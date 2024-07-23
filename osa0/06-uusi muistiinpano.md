@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -16,3 +17,4 @@ server-->>browser: Vastauksessa/Response {"message":"note created"}
 deactivate server
 
 Note right of browser: Selain pysyy samalla sivulla ja päivittää muistiinpanon listan ilman sivun uudelleenlatausta
+```
