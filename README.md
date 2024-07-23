@@ -1,5 +1,5 @@
-## Full Stack Open 2024 - Exercises
-This repository contains my solutions for the exercises of the Full Stack Open 2024 course by the University of Helsinki.
+## Full Stack Open 2024 - Exercises 
+This repository contains my solutions for the exercises of the Full Stack Open 2024 course by the University of Helsinki https://fullstackopen.com/
 
 ### Course Description
 The Full Stack Open course covers modern web development techniques, including:
