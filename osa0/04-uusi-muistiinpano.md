@@ -1,4 +1,3 @@
-```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -32,16 +31,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [
-        {
-            "content": "hola",
-            "date": "2024-07-23T11:08:32.635Z"
-        },
-        {
-            "content": "ey",
-            "date": "2024-07-23T11:08:55.119Z"
-        },
-        ... ]
+    server-->>browser: [{"content": "hola", "date": "2024-07-23T11:08:32.635Z"}, {"content": "ey", "date": "2024-07-23T11:08:55.119Z"}, ... ]
     deactivate server
 
     Note right of browser: Selain suorittaa callback-function, joka renderöi muistiinpanot
