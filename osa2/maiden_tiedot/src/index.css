@@ -1,0 +1,169 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px 10px;
+    max-width: 500px;
+    height: 80vh;
+    border: 3px solid blue;
+    border-radius: 5px;
+    background-color: rgba(214, 223, 223, 0.776);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    background-color: azure;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 200px;
+    max-width: 200px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.search_title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.search_input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+.country_msg {
+    color: blue;
+}
+
+.country_name {
+    font-size: 21px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.country_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px 30px;
+    width: 100%;
+    max-width: 400px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.country_flag {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+.country_not_found {
+    color: red;
+}
+
+.country_list {
+    font-size: 18px;
+    font-weight: bold;
+    color: #373B44;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.country_list_item {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.country_list_btn {
+    margin-left: 10px;
+}
+
+
+.country_back_btn {
+    margin-top: 15px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #e052a0, #f15c41) !important;
+    border-radius: 3px;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+}
+
+.country_back_btn:hover {
+    background-color: #e6375a;
+    background-image: none !important;
+}
+
+.weather_title {
+    color: black;
+    text-decoration: underline;
+}
+
+.weather_info {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.weather_img_container {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.weather_img {
+    max-width: 100px;
+}
+
+/* custom btn 89 */
+.button-89 {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #373B44;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
+}
