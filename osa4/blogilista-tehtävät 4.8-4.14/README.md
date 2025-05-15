@@ -6,7 +6,7 @@ This part focuses on backend development using **Node.js**, **Express**, and **M
 - Connect to a MongoDB database  
 - Implement CRUD operations for blogs  
 - Add user authentication with **JSON Web Tokens (JWT)**  
-- - Test the backend using **Supertest**
+- Test the backend using **Supertest**
 
 ---
 
