@@ -1,0 +1,19 @@
+{
+  "name": "bloglist-backend",
+  "version": "1.0.0",
+  "description": "Blog backend for Fullstack open 2025 osa 4",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "author": "Inga Divra",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
