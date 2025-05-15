@@ -1,28 +1,17 @@
-# Tehtävät 4.1.-4.2.
+## ✅ Osa 4 – Backend: Express, MongoDB, and User Authentication
 
-## Tehtävä 4.1. Blogilista, Step 1
+This part focuses on backend development using **Node.js**, **Express**, and **MongoDB**. It teaches how to:
 
-Tässä tehtävässä rakennamme yksinkertaisen blogilistasovelluksen, jossa käyttäjät voivat lisätä ja näyttää blogeja. Sovelluksessa talletetaan seuraavat tiedot:
-
-- Kirjoittaja (author)
-- Aihe (title)
-- URL
-- Äänet (likes)
-
-Sovelluksen tulee tukea seuraavia toimintoja:
-
-- **GET /api/blogs** - Listaa kaikki blogit.
-- **POST /api/blogs** - Lisää uusi blogi.
-
-### Vaiheet:
-
-1. Luo sovelluksesta toimiva npm-projekti.
-2. Konfiguroi sovellus suoritettavaksi komennolla `node --watch`.
-3. Käytä MongoDB Atlasia tietokannan isännöintiin.
-4. Testaa sovellusta Postmanilla tai VS Code REST Clientilla.
+- Set up a REST API  
+- Connect to a MongoDB database  
+- Implement CRUD operations for blogs  
+- Add user authentication with **JSON Web Tokens (JWT)**  
+- Test the backend using **Jest** and **Supertest**
 
 ---
 
-## Tehtävä 4.2. Blogilista, Step 2
+### ✔️ I completed all tasks except:
 
-Jaa sovelluksen koodi useisiin osiin ja moduuleihin. Etene pienin askelin ja varmista, että kaikki toimii koko ajan.
+- ❌ **Task 4.5**: Implemented blog list with token but didn't test yet  
+- ❌ **Task 4.6**: Login functionality test  
+- ❌ **Task 4.7**: Add user tests for invalid inputs
