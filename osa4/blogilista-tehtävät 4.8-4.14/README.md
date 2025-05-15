@@ -1,4 +1,4 @@
-## ✅ Osa 4 – Backend: Express, MongoDB, and User Authentication
+## ✅ Osa 4 – Backend: Express, MongoDB, and User Authentication. Testing Express servers, user administration.
 
 This part focuses on backend development using **Node.js**, **Express**, and **MongoDB**. It teaches how to:
 
