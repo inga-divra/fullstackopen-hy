@@ -12,6 +12,6 @@ This part focuses on backend development using **Node.js**, **Express**, and **M
 
 ### ✔️ I completed all tasks except:
 
-- ❌ **Task 4.5**: Implemented blog list with token but didn't test yet  
-- ❌ **Task 4.6**: Login functionality test  
-- ❌ **Task 4.7**: Add user tests for invalid inputs
+- ❌ **Task 4.5**: Helper Functions and Unit Tests, step 3
+- ❌ **Task 4.6**: Helper Functions and Unit Tests, step 4 
+- ❌ **Task 4.7**: Helper Functions and Unit Tests, step 5
