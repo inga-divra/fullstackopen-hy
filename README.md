@@ -7,7 +7,6 @@ The Full Stack Open course covers modern web development techniques, including:
 - React for building dynamic user interfaces
 - Redux for state management
 - Node.js and Express for server-side development
-- MongoDB for database management
 - GraphQL for querying APIs
 - TypeScript for static typing
   
